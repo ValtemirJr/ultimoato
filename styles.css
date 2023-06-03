@@ -1,13 +1,24 @@
-.background-image {
-    background-image: url('imgs/barbie-and-oppenheimer.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 .div-timer{
-    font-size: 80px;
-    margin-left: 460px;
-    padding-top: 130px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow{
+    from{
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c66d2d, 0 0 40px #c66d2d, 0 0 50px #c66d2d, 0 0 60px #c66d2d, 0 0 70px #c66d2d;
+    }
+    to{
+        text-shadow: 0 0 20px #fff, 0 0 30px #f3b628, 0 0 40px #f3b628, 0 0 50px #f3b628, 0 0 60px #f3b628, 0 0 70px #f3b628, 0 0 80px #f3b628;
+    }
+    
 }
