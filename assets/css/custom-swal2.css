@@ -1,0 +1,20 @@
+.title {
+    padding: 20px;
+    font-size: 24px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    font-size: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.confirmButton {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4CAF50 !important;
+}
+
+.cancelButton {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f44336 !important;
+}
