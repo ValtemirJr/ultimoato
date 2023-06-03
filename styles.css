@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@font-face {
+    font-family: "DeusNolan";
+    src: url("/fonts/avenir-next-bold.ttf") format("truetype");
+  }
 
 .div-timer{
     font-size: 60px;
     text-align: center;
-    color: white;
+    color: #F36135 ;
     position: absolute;
-    top: 50px;
-    font-family: 'Montserrat', sans-serif;
+    top: 60px;
+    font-family: 'DeusNolan', sans-serif;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
@@ -15,10 +19,16 @@
 
 @-webkit-keyframes glow{
     from{
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c66d2d, 0 0 40px #c66d2d, 0 0 50px #c66d2d, 0 0 60px #c66d2d, 0 0 70px #c66d2d;
+        text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 25px #c66d2d, 0 0 35px #c66d2d, 0 0 45px #c66d2d, 0 0 55px #c66d2d, 0 0 65px #c66d2d;
     }
     to{
-        text-shadow: 0 0 20px #fff, 0 0 30px #f3b628, 0 0 40px #f3b628, 0 0 50px #f3b628, 0 0 60px #f3b628, 0 0 70px #f3b628, 0 0 80px #f3b628;
+        text-shadow: 0 0 7px #fff, 0 0 17px #f3b628, 0 0 27px #f3b628, 0 0 47px #f3b628, 0 0 57px #f3b628, 0 0 67px #f3b628, 0 0 77px #f3b628;
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .div-timer{
+        font-size: 40px;
+        top: 200px;
     }
-    
 }

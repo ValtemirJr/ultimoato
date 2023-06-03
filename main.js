@@ -23,7 +23,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
+    document.getElementById("timer").innerHTML = "AVISA O IML CHEGOU O GRANDE DIA";
   }
 }, 1000);
 
