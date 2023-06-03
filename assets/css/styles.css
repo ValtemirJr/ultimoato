@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('./reset.css');
+@import url('./fog.css');
+@import url('./timer.css');
+@font-face {
+    font-family: "DeusNolan";
+    src: url("../fonts/avenir-next-bold.ttf") format("truetype");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
